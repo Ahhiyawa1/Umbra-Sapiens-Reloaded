@@ -1,0 +1,14 @@
+# County Title
+title = c_poitiers
+# Settlements
+max_settlements = 5
+b_poitiers = castle
+b_chatellerault = city
+b_stsavin = temple
+# Misc
+culture = romano_gallic
+religion = catholic
+
+# History
+900.1.1 = { culture = occitan }
+1300.1.1 = { culture = frankish }

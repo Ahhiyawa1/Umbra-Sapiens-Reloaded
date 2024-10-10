@@ -1,0 +1,17 @@
+# County Title
+title = c_ponthieu
+# Settlements
+max_settlements = 4
+b_abbeville = castle
+b_saint-valery = city
+b_le_treport = temple
+# Misc
+culture = romano_gallic
+religion = catholic
+################################################################################
+# History
+################################################################################
+790.1.1 = { culture = frankish } 
+################################################################################
+# 1587 - Ponthieu
+################################################################################

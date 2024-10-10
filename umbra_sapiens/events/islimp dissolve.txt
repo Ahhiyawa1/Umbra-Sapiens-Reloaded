@@ -1,0 +1,26 @@
+namespace = FGE
+narrative_event = {
+	id = FGE.00010
+	title = FGETitle.00010
+	desc = FGEDesc.00010
+  	picture = GFX_evt_anarchy
+	trigger = {
+		primary_title = {
+			has_title_flag = isimpflag
+		}
+		#government = muslim_imperial_government
+		tier = EMPEROR
+		NOT = { religion_group = muslim }
+	}
+	MTTH = 1
+	option = {
+	name = FGE.00010A
+	ROOT = {
+		primary_title =  {
+			clr_title_flag = isimpflag
+		}
+		set_government_type = feudal_government
+	}
+	}
+
+}

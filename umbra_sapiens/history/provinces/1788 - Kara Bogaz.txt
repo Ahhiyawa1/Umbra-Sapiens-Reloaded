@@ -1,0 +1,16 @@
+# 625 - Kara Bogaz
+
+# County Title
+title = c_kara_bogaz
+
+# Settlements
+max_settlements = 2
+b_kara_bogaz = tribal
+
+# Misc
+culture = persian
+religion = zoroastrian
+
+# History
+781.1.1 = { culture = turkish }
+1100.1.1 = { religion = sunni } 

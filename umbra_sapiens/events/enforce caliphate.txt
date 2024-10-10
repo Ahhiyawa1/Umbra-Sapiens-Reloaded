@@ -1,0 +1,54 @@
+namespace = FGE
+narrative_event = {
+	id = FGE.0009
+	title = FGETitle.0009
+	desc = FGEDesc.0009
+  	picture = GFX_evt_lunatic_arabic
+	trigger = {
+			OR = {
+			AND = {
+			total_years_played <= 1
+			government = caliph_government
+			primary_title = {
+			NOT = { has_law = revoke_title_law_2 }
+			}
+			}
+			AND = {
+			OR = {
+				government = muslim_government
+				government = muslim_imperial_government
+			}
+			is_patrician = no
+			OR = {
+				AND = {
+					religion_group = muslim
+					controls_religion = yes
+				}
+				AND = {
+					religion_group = muslim
+					is_feudal = yes
+					any_liege = {
+						government = caliph_government
+					}
+				}
+			}
+			}
+			}
+	}
+	MTTH = 1
+	option = {
+	name = FGE.0009A
+		set_government_type = caliph_government
+		primary_title = {
+			clr_title_flag = isimpflag
+			add_law = {
+				law = revoke_title_law_2
+				cooldown = no
+				opinion_effect = no
+			}
+			revoke_law = revoke_title_law_1
+			revoke_law = revoke_title_law_0
+		}
+	}
+
+}

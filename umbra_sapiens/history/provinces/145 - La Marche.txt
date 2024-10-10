@@ -1,0 +1,14 @@
+# County Title
+title = c_la_marche
+# Settlements
+max_settlements = 3
+b_bellac = castle
+b_gueret = temple
+b_aubusson = city
+# Misc
+culture = romano_gallic
+religion = catholic
+
+# History
+900.1.1 = { culture = occitan }
+1300.1.1 = { culture = frankish }

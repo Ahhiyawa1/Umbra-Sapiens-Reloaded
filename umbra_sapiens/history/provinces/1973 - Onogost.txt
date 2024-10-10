@@ -1,0 +1,24 @@
+# 1973 - Onogost
+
+# County Title
+title = c_onogost
+
+# Settlements
+max_settlements = 3
+b_onogost = tribal
+
+# Misc
+culture = illyro_roman
+religion = catholic
+
+# History
+800.1.1 = { culture = serbian }
+800.1.1 = {
+	b_onogost = castle
+	b_destinik = city
+}
+870.1.1 = {
+	religion = orthodox
+}
+1050.1.1= { religion = bogomilist }
+1200.1.1= { religion = orthodox } 

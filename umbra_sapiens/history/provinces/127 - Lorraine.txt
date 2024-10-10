@@ -1,0 +1,26 @@
+# County Title
+title = c_lorraine
+# Settlements
+max_settlements = 5
+b_nancy = castle
+b_sarrebourg = city
+b_toul = temple
+# Misc
+culture = romano_gallic
+religion = catholic
+################################################################################
+# History
+################################################################################
+790.1.1 = { culture = german } 
+1187.1.1 = { b_luneville = castle } 
+################################################################################
+# 127 - Lorraine
+################################################################################
+
+################################################################################
+# b_epinal = city
+# b_luneville = castle
+# b_charpeigne = castle
+# b_mortagnedevosges = castle
+# b_saintavoid = castle
+################################################################################

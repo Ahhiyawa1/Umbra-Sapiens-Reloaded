@@ -1,0 +1,18 @@
+# 1795 - Talas 
+
+# County Title
+title = c_talas
+
+# Settlements
+max_settlements = 3
+b_taraz = tribal
+b_shelji = temple
+
+# Misc
+culture = karluk
+religion = manichean
+
+# History
+
+1227.1.1 = { religion = sunni } 
+

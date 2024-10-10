@@ -1,0 +1,16 @@
+# 1878 - Seletyteniz
+
+# County Title
+title = c_seletyteniz
+
+# Settlements
+max_settlements = 2
+b_seletyteniz = tribal
+
+# Misc
+culture = cuman
+religion = manichean
+
+# History
+
+1060.1.1 = { culture = turkish }

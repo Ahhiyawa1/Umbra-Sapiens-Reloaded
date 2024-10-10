@@ -1,0 +1,14 @@
+# County Title
+title = c_auvergne
+# Settlements
+max_settlements = 5
+b_clermont = castle
+b_montferrand = city
+b_brioude = temple
+# Misc
+culture = romano_gallic
+religion = catholic
+
+# History
+900.1.1 = { culture = occitan }
+1400.1.1 = { culture = frankish }

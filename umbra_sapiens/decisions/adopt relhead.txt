@@ -1,0 +1,37 @@
+decisions = {
+
+adopt_relhead_gov_decision = {
+		is_high_prio = yes
+		ai_check_interval = 1
+		filter = all
+		from_potential = {
+		}
+		potential = {
+			NOT = {	religion_group = muslim	}
+			NOT = { has_religion_feature = religion_temporal_head }
+			is_patrician = no
+			or = {
+				controls_religion = yes
+				rightful_religious_head = THIS
+			}
+			is_theocracy = yes
+				}
+		allow = {
+			NOT = {	religion_group = muslim	}
+			NOT = { has_religion_feature = religion_temporal_head }
+			is_patrician = no
+			or = {
+				controls_religion = yes
+				rightful_religious_head = THIS
+			}
+			is_theocracy = yes
+		}
+		effect = {
+			ROOT = {
+				set_government_type = relhead_government
+			}
+		}
+		ai_will_do = 1
+}
+
+}

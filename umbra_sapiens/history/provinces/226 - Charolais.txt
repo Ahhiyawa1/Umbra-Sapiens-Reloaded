@@ -1,0 +1,16 @@
+# County Title
+title = c_charolais
+# Settlements
+max_settlements = 4
+b_charolles = castle
+b_semurenbrionnais = city
+# b_montstvincent = castle
+# b_toulonsurarroux = city
+b_perrecy = temple
+# Misc
+culture = romano_gallic
+religion = catholic
+
+# History
+900.1.1 = { culture = occitan }
+1300.1.1 = { culture = frankish }

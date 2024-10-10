@@ -1,0 +1,17 @@
+# 1906 - Uvs
+
+# County Title
+title = c_uvs
+
+# Settlements
+max_settlements = 6
+b_uvs = tribal
+b_sagil = city
+
+# Misc
+culture = uyghur
+religion = manichean
+
+# History
+1227.1.1={ culture = mongol }
+1227.1.1={ religion = tengri_pagan }

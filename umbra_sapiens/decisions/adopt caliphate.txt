@@ -1,0 +1,62 @@
+decisions = {
+
+adopt_caliph_gov_decision = {
+		is_high_prio = yes
+		ai_check_interval = 1
+		filter = all
+		from_potential = {
+		}
+		potential = {
+			OR = {
+				government = muslim_government
+				government = muslim_imperial_government
+			}
+			is_patrician = no
+			OR = {
+				AND = {
+					religion_group = muslim
+					controls_religion = yes
+				}
+				AND = {
+					religion_group = muslim
+					is_feudal = yes
+					any_liege = {
+						government = caliph_government
+					}
+				}
+			}
+		}
+		allow = {
+			OR = {
+				AND = {
+					religion_group = muslim
+					controls_religion = yes
+				}
+				AND = {
+					religion_group = muslim
+					is_feudal = yes
+					any_liege = {
+						government = caliph_government
+					}
+				}
+			}
+		}
+		effect = {
+			ROOT = {
+				set_government_type = caliph_government
+				primary_title = {
+					clr_title_flag = isimpflag
+					add_law = {
+						law = revoke_title_law_2
+						cooldown = no
+						opinion_effect = no
+					}
+					revoke_law = revoke_title_law_1
+					revoke_law = revoke_title_law_0
+				}
+			}
+		}
+		ai_will_do = 1
+}
+
+}

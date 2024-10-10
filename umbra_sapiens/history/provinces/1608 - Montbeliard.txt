@@ -1,0 +1,13 @@
+# Count title
+title = c_montbeliard
+# Settlements
+max_settlements = 4
+b_montbeliard = castle
+b_layre = city
+# Misc
+culture = romano_gallic
+religion = catholic
+################################################################################
+# History
+################################################################################
+790.1.1 = { culture = frankish } 

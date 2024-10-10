@@ -1,0 +1,18 @@
+# 1796 - Barskhan
+
+# County Title
+title = c_barskhan
+
+# Settlements
+max_settlements = 3
+b_barskhan = tribal
+b_kyzyl_suu = temple
+
+# Misc
+culture = sogdian
+religion = khurmazta
+
+# History
+
+1227.1.1 = { religion = sunni } 
+

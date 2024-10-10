@@ -1,0 +1,20 @@
+# County Title
+title = c_muztau
+
+# Settlements
+max_settlements = 3
+
+b_muztau = tribal
+b_zyryan = temple
+#b_oskemen =
+#b_urunkhayka =
+#b_kurchum =
+#b_uryl =
+
+# Misc
+culture = uyghur
+religion = manichean
+
+# History
+1227.1.1={ culture = mongol }
+1227.1.1={ religion = tengri_pagan }

@@ -1,0 +1,18 @@
+# 1799 - Qayaliq
+
+# County title
+title = c_qayaliq
+
+# Settlements
+max_settlements = 6
+b_qayaliq = tribal
+b_shubar = temple
+
+# Misc
+culture = karluk
+religion = manichean
+
+# History
+
+
+1289.1.7 = { religion = sunni } 

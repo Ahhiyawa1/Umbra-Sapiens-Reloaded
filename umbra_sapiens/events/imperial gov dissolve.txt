@@ -1,0 +1,24 @@
+namespace = FGE
+narrative_event = {
+	id = FGE.0006
+	title = FGETitle.0006
+	desc = FGEDesc.0006
+  	picture = GFX_evt_anarchy
+	trigger = {
+		government = roman_imperialtwo_government
+		tier = EMPEROR
+		has_game_rule = { name = imperial_options value = restricted }
+		NOT = { has_law = succ_byzantine_elective2 }
+	}
+	MTTH = 1
+	option = {
+	name = FGE.0006A
+	ROOT = {
+		primary_title =  {
+			clr_title_flag = imperialgovflag
+		}
+		set_government_type = feudal_government
+	}
+	}
+
+}

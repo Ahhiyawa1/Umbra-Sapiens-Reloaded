@@ -1,0 +1,19 @@
+# 1851 - Mughalzhar 
+
+# County Title
+title = c_mughalzhar 
+
+# Settlements 
+max_settlements = 6
+b_mughalzhar = tribal
+b_temir = temple
+
+# Misc
+culture = cuman
+religion = manichean
+
+# History
+
+1060.1.1 = { culture = turkish }
+
+1150.1.1 = { religion = sunni } 

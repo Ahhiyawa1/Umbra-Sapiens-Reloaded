@@ -1,0 +1,91 @@
+decisions = {
+
+adopt_confederate_gov_decision = {
+		is_high_prio = yes
+		ai_check_interval = 1
+		filter = all
+		from_potential = {
+		}
+		potential = {
+			government = feudal_government
+			is_patrician = no
+			OR = {
+						has_landed_title = e_hre
+						has_landed_title = e_lechczechrus
+						has_landed_title = k_switzerland
+						AND = {
+							has_landed_title = e_roman_empire
+							e_roman_empire = {
+								has_title_flag = holy_RE
+							}
+						}
+						AND = {
+						tier = EMPEROR
+						OR = {
+							has_law = ze_administration_laws_2
+							has_law = imperial_administration
+						}
+						}
+					}
+				}
+		allow = {
+			OR = {
+						has_landed_title = e_hre
+						has_landed_title = e_lechczechrus
+						has_landed_title = k_switzerland
+						custom_tooltip = {
+						text = romethruhre
+						AND = {
+							has_landed_title = e_roman_empire
+							e_roman_empire = {
+								has_title_flag = holy_RE
+							}
+						}
+						}
+						AND = {
+						custom_tooltip = {
+							text = HAS_LAW_IMPERIAL_ADMINISTRATION
+									OR = {
+										has_law = ze_administration_laws_2
+										has_law = imperial_administration
+										}
+							}
+						custom_tooltip ={
+							text = empoweredcouncilreq
+							has_law = law_voting_power_1
+							has_law = banish_voting_power_1
+							has_law = execution_voting_power_1
+							has_law = revoke_title_voting_power_1
+							has_law = grant_title_voting_power_1
+							has_law = imprison_voting_power_1
+							has_law = war_voting_power_1
+							has_law = succession_voting_power_1
+						}
+						}
+					}
+		}
+		effect = {
+			ROOT = {
+				primary_title =  {
+					set_title_flag = confederateflag
+				}
+				set_government_type = confederate_government
+				custom_tooltip = {
+				text = destroyotheremptitles
+				any_demesne_title = {
+					if = {
+						limit = {
+							tier = EMPEROR
+							NOT = { has_title_flag = confederateflag }
+						}
+					destroy_landed_title = THIS
+					}
+					
+				}
+				}
+			}
+		}
+		ai_will_do = 1
+}
+
+}

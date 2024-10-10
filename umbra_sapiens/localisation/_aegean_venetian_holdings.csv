@@ -1,0 +1,18 @@
+c_kythera;Kythera;Kythera;Kythera;Kythera;;;;;;;;;x
+b_kythera;Kythera;Kythera;Kythera;Kythera;;;;;;;;;x
+b_cerigo;Cerigo;Cerigo;Cerigo;Cerigo;;;;;;;;;x
+b_kastri;Kastri;Kastri;Kastri;Kastri;;;;;;;;;x
+b_agia_nikalaos;Agia Nikalaos;Agia Nikalaos;Agia Nikalaos;Agia Nikalaos;;;;;;;;;x
+b_skandeia;Skandeia;Skandeia;Skandeia;Skandeia;;;;;;;;;x
+PROV4883;Kythera;Kythera;Kythera;Kythera;;;;;;;;;x
+RULE_NO_CULTURAL_CONVERSION;Cultural Conversion;;;;;;;;;;;;;x
+RULE_NO_CULTURAL_CONVERSION_DESC;Adjusts the speed of cultural conversion or disables it entirely.;;;;;;;;;;;;;x
+RULE_GROUP_CULTURAL_CONVERSION;Cultural Conversion;;;;;;;;;;;;;x
+RULE_NO_CULTURAL_CONVERSION_NORMAL;Normal;;;;;;;;;;;;;x
+RULE_NO_CULTURAL_CONVERSION_NORMAL_DESC;Cultural conversion occurs at the normal rate.;;;;;;;;;;;;;x
+RULE_NO_CULTURAL_CONVERSION_SLOW;Slow;;;;;;;;;;;;;x
+RULE_NO_CULTURAL_CONVERSION_SLOW_DESC;Cultural conversion is significantly slower.;;;;;;;;;;;;;x
+RULE_NO_CULTURAL_CONVERSION_VERY_SLOW;Very Slow;;;;;;;;;;;;;x
+RULE_NO_CULTURAL_CONVERSION_VERY_SLOW_DESC;Cultural conversion is extremely slow.;;;;;;;;;;;;;x
+RULE_NO_CULTURAL_CONVERSION_NONE;None;;;;;;;;;;;;;x
+RULE_NO_CULTURAL_CONVERSION_NONE_DESC;Cultural conversion is disabled.;;;;;;;;;;;;;x

@@ -1,0 +1,14 @@
+# County Title
+title = c_lusignan
+# Settlements
+max_settlements = 4
+b_lusignan = castle
+b_charroux = temple
+b_niort = city
+# Misc
+culture = romano_gallic
+religion = catholic
+
+# History
+900.1.1 = { culture = occitan }
+1300.1.1 = { culture = frankish }

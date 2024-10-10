@@ -1,0 +1,42 @@
+#namespace = FGE
+#letter_event = {
+#	id = FGE.0004
+#	title = FGETitle.0004
+#	mean_time_to_happen = { days = 1 }
+ # 	picture = GFX_evt_anarchy
+	#desc = FGEDesc.0004
+#	trigger = {
+#				NOT = { tier = EMPEROR }
+#				OR = {
+#				has_elector_stance = {
+#					title = e_hre
+#					stance = THIS
+#				}
+#				AND = {
+#					has_elector_stance = {
+#						title = e_roman_empire
+#						stance = THIS
+#					}
+#					e_roman_empire = {
+#						has_title_flag = holy_RE
+#					}
+#				}
+#				}
+#				top_liege = {
+#					is_feudal = yes
+#					NOT = { has_law = succ_feudal_elective }
+#					NOT = { has_law = succ_tanistry }
+#					NOT = { has_law = succ_eldership }
+#					NOT = { has_law = succ_elective_gavelkind }
+#					NOT = { has_law = succ_byzantine_elective }
+#				}
+#	}
+#	option = {
+#		name = FGE.0004A
+#		trigger = {
+#			age > 0
+#		}
+#		set_special_character_title = TITLEPRINCEELECTOR
+#		ai_chance = 1
+#	}
+#}

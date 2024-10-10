@@ -1,0 +1,44 @@
+succession_laws = {
+
+	succ_hre_elective3 = {
+		oldest_child_opinion = -15
+		child_opinion = -5
+		dynasty_opinion = -5
+		vassal_opinion = 15
+		vassal_limit = 20
+		potential = {
+			holder_scope = {
+				NOT = { has_landed_title = e_hre }
+				NOT = { has_landed_title = e_roman_empire }
+				OR = {
+					has_law = ze_administration_laws_2
+					has_law = imperial_administration
+				}
+				NOT = { religion_group = muslim }
+				is_nomadic = no
+				is_merchant_republic = no
+				is_patrician = no
+				government = confederate_government
+			}
+			NOT = { holder_scope = { government = confucian_bureaucracy } }
+			NOT = { holder_scope = { government = chinese_imperial_government } }
+		}
+		allow = {
+			custom_tooltip = {
+				text = not_forced_tt
+				hidden_tooltip = {
+					holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
+				}
+			}
+		}
+		effect = {
+			succession = {
+				base_type = feudal_elective
+				voting_rules = hre_feudal_elective
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+	}
+}

@@ -1,0 +1,10 @@
+spriteTypes = {
+  spriteType = {
+    name = "GFX_adopt_caliph_gov_decision"
+    texturefile = "gfx\\interface\\decision_icon_create_caliphate.dds"
+  }
+   spriteType = {
+    name = "GFX_adopt_iqta_imperialism_decision"
+    texturefile = "gfx\\interface\\decision_create_ibadi_caliphate.dds"
+  }
+ }

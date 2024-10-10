@@ -1,0 +1,22 @@
+# 1971 - Vrhbosna
+
+# County Title
+title = c_bilino_polje
+
+# Settlements
+max_settlements = 3
+b_visoki = tribal
+
+# Misc
+culture = illyro_roman
+religion = catholic
+terrain = mountain
+
+# History
+800.1.1 = {
+	religion = catholic
+	culture = serbian
+	b_visoki = castle
+	b_vrhbosna = city
+}
+1000.1.1= { religion = bogomilist } 

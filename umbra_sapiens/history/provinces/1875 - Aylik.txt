@@ -1,0 +1,17 @@
+# 1875 - Aylik
+
+# County Title
+title = c_aylik
+
+# Settlements
+max_settlements = 6
+b_aylik = tribal
+b_karamay = temple
+
+# Misc
+culture = kirghiz
+religion = manichean
+
+# History
+
+1313.1.1={ religion = sunni }

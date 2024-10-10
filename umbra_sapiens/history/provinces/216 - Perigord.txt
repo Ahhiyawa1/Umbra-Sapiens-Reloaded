@@ -1,0 +1,13 @@
+# County Title
+title = c_perigord
+# Settlements
+max_settlements = 4
+b_sarlat = castle
+b_bergerac = city
+b_chancelade = temple
+# Misc
+culture = romano_gallic
+religion = catholic
+
+# History
+900.1.1 = { culture = occitan }

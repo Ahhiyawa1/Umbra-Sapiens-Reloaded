@@ -1,0 +1,28 @@
+# 228 - Dauphine Viennois
+
+# County Title
+title = c_dauphine_viennois
+
+# Settlements
+max_settlements = 5
+b_albon = castle
+b_vienne = temple
+b_grenoble = city
+
+#b_montelimar = castle
+#b_valence = city
+#b_vienne = temple
+#b_grenoble = city
+#b_chartreuse = temple
+#b_albon = castle
+#b_stantoine = temple
+#b_valreas = city
+
+# Misc
+culture = romano_gallic
+religion = catholic
+
+# History
+899.1.1 = { culture = occitan }
+1297.1.1 = { b_stantoine = temple }
+

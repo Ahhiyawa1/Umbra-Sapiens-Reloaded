@@ -1,0 +1,50 @@
+decisions = {
+
+adopt_monast_viceroy_gov_decision = {
+		is_high_prio = yes
+		ai_check_interval = 1
+		filter = all
+		from_potential = {
+		}
+		potential = {
+			OR = {
+				AND = {
+				OR = {
+					government = muslim_government
+					government = caliph_government
+				}
+				religion_group = muslim
+				}
+				AND = {
+				religion_group = pagan
+				government = theocratic_feudal_governmenttwo
+				}
+				AND = {
+				culture_group = tibetan_group
+				OR = {
+					religion = bon
+					religion = bon_reformed
+					religion = buddhist
+				}
+				government = theocratic_feudal_government
+				}
+			}
+			is_patrician = no
+			any_demesne_title = {
+				is_vice_royalty = yes
+			}
+				}
+		allow = {
+			any_demesne_title = {
+				is_vice_royalty = yes
+			}
+		}
+		effect = {
+			ROOT = {
+				set_government_type = viceroy_monastic_government
+			}
+		}
+		ai_will_do = 1
+}
+
+}

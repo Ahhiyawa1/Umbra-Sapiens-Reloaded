@@ -1,0 +1,18 @@
+# County Title
+title = c_vexin
+# Settlements
+max_settlements = 4
+b_larocheguyon = castle
+b_pontoise = city
+b_abbayedemortemer = temple
+# Misc
+culture = romano_gallic
+religion = catholic
+################################################################################
+# History
+################################################################################
+790.1.1 = { culture = frankish } 
+1197.1.1 = { b_andely = city } 
+################################################################################
+# 98 - Vexin
+################################################################################

@@ -1,0 +1,70 @@
+decisions = {
+
+adopt_iqta_imperialism_decision = {
+		is_high_prio = yes
+		filter = all
+		from_potential = {
+			ai = no
+		}
+		potential = {
+			government = muslim_government
+			is_patrician = no
+					tier = EMPEROR
+					primary_title = { 
+						NOR = {
+							title = e_byzantium
+							title = e_roman_empire
+							}
+						OR = {
+							has_law = ze_administration_laws_2
+							has_law = imperial_administration
+							}
+						}
+				}
+		allow = {
+				primary_title = { 
+						custom_tooltip = {
+							text = HAS_LAW_IMPERIAL_ADMINISTRATION
+									OR = {
+										has_law = ze_administration_laws_2
+										has_law = imperial_administration
+										}
+								}
+						custom_tooltip = {
+							text = hasimperialelectivesucc
+							OR = {
+								AND={
+									has_game_rule = { name = imperial_options value = restricted } 
+									has_law = succ_byzantine_elective2
+									}
+								AND={
+									has_game_rule = { name = imperial_options value = unrestricted }
+									}
+							}
+						}
+				}
+		}
+		effect = {
+			ROOT = {
+				primary_title =  {
+					set_title_flag = isimpflag
+				}
+				set_government_type = muslim_imperial_government
+				custom_tooltip = {
+				text = destroyotheremptitles
+				any_demesne_title = {
+					if = {
+						limit = {
+							tier = EMPEROR
+							NOT = { has_title_flag = isimpflag }
+						}
+					destroy_landed_title = THIS
+					}
+					
+				}
+				}
+			}
+		}
+}
+
+}

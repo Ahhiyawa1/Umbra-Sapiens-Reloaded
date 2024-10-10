@@ -1,0 +1,18 @@
+# County Title
+title = c_saintois
+# Settlements
+max_settlements = 4
+b_vaudemont = castle
+b_brixey = city
+b_saintois = temple
+# Misc
+culture = romano_gallic
+religion = catholic
+################################################################################
+# History
+################################################################################
+790.1.1 = { culture = frankish } 
+1187.1.1 = { b_dompaire = castle } 
+################################################################################
+# 133 - Saintois
+################################################################################

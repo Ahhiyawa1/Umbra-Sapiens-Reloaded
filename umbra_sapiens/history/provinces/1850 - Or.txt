@@ -1,0 +1,17 @@
+# 1850 - Or
+
+# County Title
+title = c_or
+
+# Settlements
+max_settlements = 2
+b_or = tribal
+b_istemis = temple
+
+# Misc
+culture = cuman
+religion = manichean
+terrain = steppe
+
+# History
+1313.1.1={ religion = sunni } 

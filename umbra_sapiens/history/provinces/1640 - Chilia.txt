@@ -1,0 +1,26 @@
+# 1640 - Chilia
+
+# County Title
+title = c_chilia
+
+# Settlements
+max_settlements = 3
+
+b_chilia = castle
+b_oblucita = city	#"Izmail" in turkish
+b_tigheci = temple
+
+#b_reni_ro = castle
+#b_cahul = castle
+#b_lisky = castle
+#b_palada = castle
+
+# Misc
+culture = romano_dacian
+religion = catholic
+
+# History
+870.1.1 = {
+	religion = orthodox
+	culture = romanian
+}

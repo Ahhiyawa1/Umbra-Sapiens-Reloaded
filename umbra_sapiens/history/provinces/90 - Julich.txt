@@ -1,0 +1,14 @@
+# County Title
+title = c_julich
+# Settlements
+max_settlements = 4
+b_julich = castle
+b_aachen = city
+b_prum = temple
+# Misc
+culture = old_frankish
+religion = catholic
+
+# History
+790.1.1 = { culture = german }
+

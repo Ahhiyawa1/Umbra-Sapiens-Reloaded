@@ -1,0 +1,17 @@
+cultural_conversion = {
+    name = "RULE_NO_CULTURAL_CONVERSION"
+    group = RULE_GROUP_CULTURAL_CONVERSION
+    is_custom = yes
+
+    option = {
+        name = option_normal
+        text = RULE_NO_CULTURAL_CONVERSION_NORMAL
+        desc = RULE_NO_CULTURAL_CONVERSION_NORMAL_DESC
+    }
+
+    option = {
+        name = option_none
+        text = RULE_NO_CULTURAL_CONVERSION_NONE
+        desc = RULE_NO_CULTURAL_CONVERSION_NONE_DESC
+    }
+}

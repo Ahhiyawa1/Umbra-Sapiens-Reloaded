@@ -1,0 +1,17 @@
+# 1864 - Osha
+
+# County title
+title = c_osha
+
+# Settlements
+max_settlements = 2
+b_osha = tribal
+b_sartam = temple 
+
+# Misc
+culture = cuman
+religion = manichean
+
+# History
+
+1060.1.1 = { culture = turkish }

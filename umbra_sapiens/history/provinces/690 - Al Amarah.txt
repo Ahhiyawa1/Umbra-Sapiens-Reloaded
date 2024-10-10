@@ -1,0 +1,28 @@
+# 690 - Al Amarah
+
+# County Title
+title = c_al_amarah
+
+# Settlements
+max_settlements = 5
+b_amarah = castle
+b_kutelamara = city
+b_wasit = temple
+b_badra = castle
+
+#b_suwaira = city
+#b_azeeziaya = castle
+#b_hai = castle
+b_zurbatiyah = castle
+
+#Misc
+culture = assyrian
+religion = nestorian
+
+# History
+1.1.1 = {
+	build_wonder = wonder_hanging_gardens
+	set_wonder_stage = 4
+}
+1151.1.1 = { culture = levantine_arabic }
+1161.1.1 = { religion = sunni }
